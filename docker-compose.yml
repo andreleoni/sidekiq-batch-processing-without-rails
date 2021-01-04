@@ -1,0 +1,5 @@
+version: "3"
+
+redis:
+  image: redis:3.0.7-alpine
+  mem_limit: 128mb

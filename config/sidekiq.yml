@@ -1,0 +1,4 @@
+---
+:concurrency: <%= ENV["CONCURRENCY"] || 1 %>
+:queues:
+ - default
